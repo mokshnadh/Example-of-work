@@ -147,6 +147,12 @@ public class FairBilling implements Serializable {
 				  } 
 				  
 				 }
+			
+			if(Time == 7) { //Code to calculate the session and timings
+					 
+					 
+				 }
+			
 		} while(Time>0);
 			  }
 		}
