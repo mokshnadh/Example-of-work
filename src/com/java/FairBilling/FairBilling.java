@@ -75,7 +75,7 @@ public class FairBilling implements Serializable {
 					 for(On b1: on) {
 						 ((ObjectOutput) output).writeObject(b1);
 					 }
-					 System.out.println(strTime1  +" \t " + Name + "\t\t" + On);
+					 System.out.println(strTime  +" \t " + Name + "\t\t" + On);
 					 
 		}
 					  if(Time == 3) { // Code to stop the session
