@@ -183,7 +183,7 @@ public class FairBilling implements Serializable {
 					    HashMap<String, Integer> map = new HashMap<String, Integer>();
 						//TreeMap<String, Integer> map = new TreeMap<String, Integer>();
 
-						Scanner txtFile = new Scanner(new File("c://Users/User/git/Checking.txt"));
+						Scanner txtFile = new Scanner(new File("c://Users/User/git/FairBilling/LogFile2.txt"));
 						while(txtFile.hasNext()) {
 						String word = txtFile.next();
 						if(map.containsKey(word)) {
